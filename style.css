@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 1.1;
+    font-weight: 400;
+}
+.page-heading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.1;
+    margin: 0;
+    margin-bottom: 40px;
+}
+.wrapper {
+    padding: 96px 0 50px;
+}
+.container {
+    max-width: 100%;
+    padding: 0 58px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -29px;
+}
+.col-4 {
+    flex: 0 0 auto;
+    max-width: 100%;
+    width: 33.333%;
+    padding: 0 29px;
+}
+.form-label {
+    font-size: 18px;
+    line-height: 1.1;
+    font-family: 'Inter', sans-serif;
+    display: block;
+    margin-bottom: 14px;
+}
+.form-control {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    height: 56px;
+    padding: 0 17px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.btn {
+    display: inline-flex;
+    border: none;
+    outline: none;
+    min-height: 58px;
+    min-width: 226px;
+    padding: 5px;
+    background-color: #fff;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 1.1;
+    transition: 0.3s ease-in-out;
+    margin-top: 39px;
+    margin-bottom: 48px;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+.text-danger {
+    color: #FF4343;
+}
+.text-success {
+    color: #43FF78;
+}
+.valid-msg {
+    margin: 0;
+    margin-bottom: 48px;
+    display: none;
+}
+.text-muted {
+    opacity: 0.5;
+    margin: 0;
+}
+#employee-box {
+    max-width: 728px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#employee-box .row {
+    margin: 0 -13px;
+    align-items: center;
+}
+.col-left, .col-right {
+    padding: 0 13px;
+    flex: 0 0 auto;
+    max-width: 100%;
+}
+.col-left {
+    width: 71%;
+}
+.col-right {
+    width: 29%;
+}
+.btn2 {
+    min-width: 100%;
+    min-height: 42px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin: 0px;
+}
+.employee-content {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 13px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
